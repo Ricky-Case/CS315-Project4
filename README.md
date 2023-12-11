@@ -6,7 +6,7 @@
 
 ![Flashy Artist Rendering of DNA](files/DNA.png)
 
-In this assignment will be focused on a single algorithm: Longest Common Subsequence (LCS)! This is a pretty fun algorithm that’s used somewhat frequently in string analysis. Another fun application is, as our little picture indicates, in computational biology with matching subsequences of DNA. In this application, strands of DNA are treated as strings generated from an alphabet containing the characters ’A’, ’T’, ’C’, and ’G’.
+In this assignment we will be focused on a single algorithm: Longest Common Subsequence (LCS)! This is a pretty fun algorithm that’s used somewhat frequently in string analysis. Another fun application is, as our little picture indicates, in computational biology with matching subsequences of DNA. In this application, strands of DNA are treated as strings generated from an alphabet containing the characters ’A’, ’T’, ’C’, and ’G’.
 
 In this assignment, you’ll be asked to implement the longest common subsequence algorithm using dynamic programming. Dynamic programming is an algorithm design paradigm that breaks large problems down into smaller problems and uses the solution to smaller problems to make solving the larger problem easier. I’ve given you a single text file, dna.txt that contains two strings representing sequences of DNA. The ultimate goal of this assignment is to find the longest common subsequence between these two sequences. The text file is organized as follows:
 - Each DNA sequence is a string consisting of characters ’A’, ’T’, ’C’, and ’G’.
@@ -38,3 +38,14 @@ You will include a written report with your submission detailing important detai
 - Clear: your grammar should be correct, your graphics should be clearly labeled and easy to read.
 - Concise: I sometimes print out reports to ease grading, don’t make figures larger than they need to be. Graphics and text should be large enough to get the point across, but not much larger.
 - Credit (partial): if you are not able to get something working, or unable to generate a particular figure, explain why in your report. If you don’t explain, I can’t give partial credit.
+
+
+# CHANGELOG
+## 20231211
+1) Created main.cpp file
+	- Converted instructions to pseudocode
+	- Set up main() function
+2) Created LCS header and implementation files
+	- Added LCS pseudocode
+3) Implemented LCS code
+	- Project Completed
