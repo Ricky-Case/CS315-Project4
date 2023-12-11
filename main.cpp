@@ -11,13 +11,13 @@ int main()
 
 	// Construct the LCS Matrix
 	LCS lcs(sequences[0], sequences[1]);
-	lcs.BuildLeastCommonSubsequence();
+	lcs.BuildLongestCommonSubsequence();
 
 	// Compute LCS Length
 	lcs.PrintLength();
 
 	// Print the LCS
-	lcs.PrintLeastCommonSubsequence();
+	lcs.PrintLongestCommonSubsequence();
 
 	return 0;
 }

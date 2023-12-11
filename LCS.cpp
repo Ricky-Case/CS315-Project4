@@ -7,11 +7,11 @@ LCS::LCS(std::string first, std::string second)
 {
 	firstSequence = first;
 	secondSequence = second;
-	leastCommonSubsequence = "";
+	longestCommonSubsequence = "";
 	length = 0;
 }
 
-void LCS::BuildLeastCommonSubsequence()
+void LCS::BuildLongestCommonSubsequence()
 {
 	// Determine matrix dimensions
 	int m = firstSequence.size();
@@ -55,13 +55,13 @@ void LCS::BuildLeastCommonSubsequence()
 		else { n--; }
 	}
 
-	leastCommonSubsequence = lcs;
+	longestCommonSubsequence = lcs;
 }
 
-void LCS::PrintLeastCommonSubsequence()
+void LCS::PrintLongestCommonSubsequence()
 {
 	std::cout << std::endl
-			<< "Longest Common Subsequence is: \"" << leastCommonSubsequence << "\"." << std::endl
+			<< "Longest Common Subsequence is: \"" << longestCommonSubsequence << "\"." << std::endl
 			<< std::endl;
 }
 

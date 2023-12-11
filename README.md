@@ -49,3 +49,4 @@ You will include a written report with your submission detailing important detai
 	- Added LCS pseudocode
 3) Implemented LCS code
 	- Project Completed
+4) Fixed names where my brain misfired and I typed "least" instead of "longest".

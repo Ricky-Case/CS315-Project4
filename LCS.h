@@ -11,14 +11,14 @@ public:
 	// Constructor - takes two sequences as strings
 	LCS(std::string, std::string);
 
-	void BuildLeastCommonSubsequence();
+	void BuildLongestCommonSubsequence();
 	void PrintLength();
-	void PrintLeastCommonSubsequence();
+	void PrintLongestCommonSubsequence();
 
 private:
 	std::string firstSequence;
 	std::string secondSequence;
-	std::string leastCommonSubsequence;
+	std::string longestCommonSubsequence;
 
 	int length;
 };
